@@ -30,14 +30,25 @@
 #import <Foundation/Foundation.h>
 #endif
 
+#import <SVGgh/GHAttributedObject.h>
 #import <SVGgh/GHImageCache.h>
+#import <SVGgh/GHGlyph.h>
+#import <SVGgh/GHGradient.h>
+#import <SVGgh/GHPathDescription.h>
+#import <SVGgh/GHPathUtilities.h>
 #import <SVGgh/GHRenderable.h>
+#import <SVGgh/GHText.h>
+#import <SVGgh/GHTextLine.h>
+#import <SVGgh/SVGAttributedObject.h>
+#import <SVGgh/SVGGradientUtilities.h>
 #import <SVGgh/SVGRendererLayer.h>
 #import <SVGgh/SVGParser.h>
 #import <SVGgh/SVGRenderer.h>
 #import <SVGgh/SVGPrinter.h>
 #import <SVGgh/SVGtoPDFConverter.h>
 #import <SVGgh/SVGPathGenerator.h>
+#import <SVGgh/SVGTextUtilities.h>
+#import <SVGgh/SVGUtilities.h>
 #if TARGET_OS_OSX
 #else
 #import <SVGgh/SVGDocumentView.h>

@@ -1,0 +1,4 @@
+module SVGgh {
+    umbrella header "/Users/dafurman/Desktop/SVGgh/SVGgh/include/SVGgh/SVGgh.h"
+    export *
+}
