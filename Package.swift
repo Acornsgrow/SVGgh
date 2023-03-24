@@ -26,7 +26,17 @@ let package = Package(
                 .headerSearchPath("SVGRenderer"),
                 .headerSearchPath("Third Party"),
                 .headerSearchPath("Utilities"),
-                .headerSearchPath("Views and Layers")
-            ])
+                .headerSearchPath("Views and Layers"),
+            ],
+            linkerSettings: [
+                .linkedFramework("CoreGraphics"),
+                .linkedFramework("CoreImage"),
+                .linkedFramework("CoreText"),
+                .linkedFramework("UIKit"),
+                .linkedFramework("Foundation"),
+                .linkedFramework("CoreServices"),
+                .linkedLibrary("z"),
+            ]
+        )
     ]
 )
